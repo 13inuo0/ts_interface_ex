@@ -1,14 +1,25 @@
-const user1: { name: string; age: number; gender: "male" | "female" } = {
+// 인터페이스 작성.
+// interface User {
+//   name: string;
+//   age: number;
+//   gender: "male" | "female";
+// }
+
+import type { User } from "../types/interface_ex";
+
+
+
+const user1: User = {
   name: "철수",
   age: 20,
   gender: "male",
 };
-const user2: { name: string; age: number; gender: "male" | "female" } = {
+const user2: User = {
   name: "유리",
   age: 22,
   gender: "female",
 };
-const user3: { name: string; age: number; gender: "male" | "female" } = {
+const user3: User = {
   name: "훈이",
   age: 25,
   gender: "male",
