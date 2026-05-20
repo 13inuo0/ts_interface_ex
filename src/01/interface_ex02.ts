@@ -21,3 +21,6 @@ const developer: Developer = {
   age: 30,
   skill: "Front Developer",
 };
+
+// 가독성 면에서 의미상 관련된 것 끼리 상속해주는 것이 안정적인 타입 시스템을 구축할 수 있다.
+// ex )) person - developer, Car - BMW
