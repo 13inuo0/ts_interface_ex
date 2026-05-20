@@ -2,6 +2,7 @@
 interface Person {
   name: string;
   age: number;
+//   age: string; // 만약 스트링 타입으로 지정하게되면 아래 age 속성값들도 모두 ""로 문자열로 변경해줘야한다. 
 }
 
 interface Developer extends Person {
