@@ -14,7 +14,7 @@ interface Log {
 interface UserWithLogging extends User, Log {}
 
 // 다중 상속 인터페이스를 사용.
-const User: UserWithLogging = {
+const user: UserWithLogging = {
   name: "민수",
   age: 20,
   log(message: string) {
